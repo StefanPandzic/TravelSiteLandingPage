@@ -1,0 +1,26 @@
+{
+  "name": "beeit_projekat",
+  "version": "1.0.0",
+  "description": "Prijava za praksu BeeIT projekat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Pandzic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "cssnano": "^4.1.10",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}

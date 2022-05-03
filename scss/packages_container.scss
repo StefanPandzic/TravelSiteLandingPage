@@ -1,0 +1,420 @@
+.packages_container{
+    padding: 0 2em 2em;
+    text-align: center;
+    background: color(primary-darker);
+
+    h2{
+        margin:0;
+        padding-top: 2em;
+        text-transform: uppercase;
+        color: color(secondary);
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    h1{
+        margin:0.3em;
+        color: color(primary-light);
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    p {
+        margin:2em;
+        color: color(secondary);
+        font-weight: 100;
+        font-size: 23px;
+        br{
+            display: none;
+        }
+
+        span{
+            display: none;
+        }
+        
+    }
+
+    .services_upgrades {
+
+        margin:2em 0 4em;
+        font-weight: normal;
+
+        a{
+
+            font-size: 27px;   
+            padding: 0.2em 0;
+            position: relative;
+            background-image: linear-gradient(to right, color(primary-light) 60%, color(primary-darker) 0%);
+            background-position: 7em bottom;
+            background-size: 6% 2px;
+            background-repeat: repeat-x;       
+            text-decoration: none;
+            color: color(primary-light);
+        }
+
+        a:hover{
+
+            background-image: linear-gradient(to right, color(primary) 60%, color(primary-darker) 0%);
+            color: color(primary);
+            
+        }
+    }
+
+    .service_list{
+
+        margin:0em 0;
+        padding:0;
+
+        .package_buttons{
+            display:none;
+        }
+
+        .service_package{
+            
+            margin:0em 0;
+            padding:10px 0 0 0;
+            background: color(primary);
+
+            section{
+
+                margin-bottom: 3em;
+                padding:2em 0;
+                background: color(secondary);
+                color:color(primary);
+
+                .avatar{
+                    height: 150px;
+                    width: 150px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+        
+                h3{
+
+                    font-size:30px;
+                    font-weight: bold;
+                    margin:1em;
+                    
+                }
+
+               ul{
+
+                   padding:0.2em 1.5em 0.5em;
+                   display:block;
+
+                   li{
+                      
+                        margin: 0;
+                        display:flex;
+
+                        img{
+                     
+                            padding:0.3em 1em;
+                            margin:0;
+                            width: 30px;
+                            height: 30px;
+                        }
+                        
+                        h4{
+                        
+                            padding:0.4em 0;
+                            margin: 5px 0 0 0;
+                            font-size:20px;
+                            font-weight: 400;
+                            color:color(primary-darker);
+                        }
+
+                    } 
+                   
+               }
+
+            }
+
+            .excluded{
+                opacity: 0.3;
+            }
+            
+        }
+       
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .packages_container{
+
+        h2{
+            font-size: 1em;
+        }
+
+        h1{
+            font-size: 2em;
+        }
+
+        p{
+
+            margin-top:1em;
+            font-size: 1em;
+
+            br{
+                display: block;
+            }
+
+            span{
+                display: initial;
+            }
+        }
+
+        .services_upgrades {
+
+            max-width: 768px;
+            text-align: right;
+            margin:1em auto;
+
+            a{
+                font-size: 18px;
+                font-weight: normal;
+                padding: 0.2em 0;
+                position: relative;
+                background-image: linear-gradient(to right, color(primary-light) 60%, color(primary-darker) 0%);
+                background-position: 7em bottom;
+                background-size: 6% 2px;
+                background-repeat: repeat-x;
+            }
+        
+        }
+
+        .service_list{
+
+
+            max-width: 768px;
+            margin: 0 auto;
+            background: color(secondary);
+
+            .package_buttons{
+
+                display: flex;
+                justify-content: center;
+
+                button {
+                    width: 100%;
+                    padding: 0.5em 1.2em;
+                    background-color: rgb(197, 197, 197);  
+                    color: black;
+                    opacity: 0.3;
+                    font-size: 25px;
+                    font-weight: normal;
+                    border: none;
+                    cursor: pointer;
+                    transition-duration: 200ms;
+        
+                }
+        
+                #package_button_3 {
+                    border-left:2px solid gray;
+                }
+        
+                button:active{
+                    outline:none;
+                }
+        
+                button:focus{
+                    outline:none;      
+                }
+
+                .button_active{
+
+                    background-color: color(secondary);  
+                    color:color(primary); 
+                    opacity: 1;
+                    border-top: 5px solid color(primary-light);
+                    
+                }
+
+            }
+
+            .service_package{
+
+                margin: 0 1em;
+                background: color(secondary);
+
+                h3{
+                    display: none;
+                }
+
+                padding:0 1em;
+            
+                section{
+
+                    display:flex;
+                    justify-content: space-between;
+                    padding:2em;
+
+                    ul{
+                        padding:2em 0;
+                    }
+                
+                }
+
+                .included{
+                    
+                    h4{
+                        font-size: 14px;
+                        text-align: left;
+                    }
+
+                    img{
+                        
+                        padding:0.3em 1em;
+                        margin-top:0.2em;
+                        width: 20px;
+                        height: 15px;
+
+                    }
+                }
+
+                .excluded{
+
+                    margin-right:1em;
+                
+                    h4{
+                        font-size: 14px;
+                        text-align: left;
+                    }
+
+                    img{
+                        
+                        padding:0.3em 1em;
+                        margin-top:0.2em;
+                        width: 20px;
+                        height: 15px;
+
+                    }
+
+                }
+                
+            }
+
+        }  
+
+    }
+
+}
+
+
+@media (min-width: 1500px) {
+    .packages_container{
+
+
+        padding:2em 15em;
+        
+        h2{
+
+        
+            font-size: 0.8em;
+        }
+
+        h1{
+        
+            font-size: 3em;
+        
+        }
+
+        p{
+            margin-top:1em;
+            
+            padding:0em 10em;
+
+            font-size: 1.2em;
+
+
+            br{
+                display: none;
+            }
+        .hide_desktop{
+                display: none;
+            }
+        }
+
+
+        .services_upgrades {
+
+            max-width: none;
+
+            text-align: right;
+            margin:1em 0;
+
+            a{
+                font-size: 20px;
+            }
+        
+        }
+
+        .service_list{
+
+            max-width: none;
+
+
+            .package_buttons{
+
+                button{
+                    font-size: 30px;
+
+                }
+
+                .button_active{
+                    font-weight: bold;
+                }
+
+
+
+            }
+
+            .service_package{
+                margin: 0 1.5em;
+
+                section{
+
+                    .avatar{
+                        height: 200px;
+                        width: 200px;
+                    }
+
+                    .included{
+
+                        margin-right:2em;
+                        
+
+                        h4{
+                            font-size: 20px;
+                        }
+                    }
+
+                    .excluded{
+
+
+                        margin-right: 4em;
+
+                        h4{
+                            font-size: 20px;
+                        }
+
+                        img{
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+}

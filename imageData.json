@@ -1,0 +1,24 @@
+{
+        "images": [
+            {
+                "imgPath": "images/carousel/carouselpic1.jpg",
+                "imgDescription": "Sea and Beach"
+            },
+            {
+                "imgPath": "images/carousel/carouselpic2.jpg",
+                "imgDescription": "Sea and Beach"
+            },
+            {
+                "imgPath": "images/carousel/carouselpic3.jpg",
+                "imgDescription": "Sea and Beach"
+            },
+            {
+                "imgPath": "https://www.tripsavvy.com/thmb/0RiozW1csovLqiHsJDl1ROdmMWw=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/illuminated-buildings-and-city-street-at-night-902452584-94fe3f3db5374dbbb82cc2372534be28.jpg",
+                "imgDescription": "Sea and Beach"
+            },
+            {
+                "imgPath": "https://www.roughguides.com/wp-content/uploads/2018/01/Coron-Palawan-Philippines-shutterstock_329793749-1680x1050.jpg",
+                "imgDescription": "Sea and Beach"
+            }
+        ]
+}

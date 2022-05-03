@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenEarth</title>
+    <link rel="stylesheet" href="dist/main.css?cb=1603035995011">
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div class="container_hero">
+        <header>
+            <section>
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="GreenEarth Logo">
+            </a>
+        
+            <div class="topmenu">
+                <ul class="_list">
+                    <li class="_localandcurrency"><a href="#">Login</a></li>
+                    <li class="_localandcurrency"><div class="separator"></div></li>
+                    <li class="_localandcurrency"><a href="#"><img src="images/local/Flag_of_the_United_Kingdom.svg" alt="Location" class="location"></a></li>
+                    <li class="_localandcurrency"><a href="#"><span class="hide-mobile">EN - UK</span>(£)</a></li>
+                </ul>
+            </div>
+                
+            
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="carousel_hero" id="carousel_hero">
+                <div class="carousel_track-container">
+                    <ul class="carousel_track" id="carousel_track_slider">
+            
+                    </ul>
+                </div>
+                <div class="buttons_container">
+                    <button class="button--left" id='btn_left'>
+                        <img class="buttons_carousel_img" src="images/arrowleft.png" alt="Slide left">
+                    </button>
+                    <button class="button--right" id='btn_right'>
+                        <img class="buttons_carousel_img" src="images/arrowright.png" alt="Slide right">
+                    </button>
+                </div>
+                <main>
+                    <h1>Enjoy our hot summer deals</h1>
+                    <h2>from £69<span>.50</span></h2>
+                    <button class="book">Book now!</button>
+                </main>
+        </section>
+    </div>
+
+    <div class="container_services">
+        <h2>Low cost doesn't mean cheap</h2>
+        <h1>Fly smart,<br> fly with Green Earth</h1>
+        <ul class= "service_list">
+            <li class="services_item">
+                <img src="images/icons/seat.png" alt="Seat icon">
+                <section>
+                    <h3>Reclinable seats</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.
+                    </p>
+                </section>
+            </li>                
+            <li class="services_item">
+                <img src="images/icons/shoe.png" alt="Seat icon">
+                <section>
+                    <h3>Plenty of legroom</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.
+                    </p>
+                </section>
+            </li>
+            <li class="services_item">
+                <img src="images/icons/cabin.png" alt="Seat icon">
+                <section>
+                    <h3>Free cabin luggage</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.
+                    </p>
+                </section>
+            </li>
+            <li class="services_item">
+                <img src="images/icons/smile.png" alt="Seat icon">
+                <section>
+                    <h3>Friendly crew</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna aliqua.
+                    </p>
+                </section>
+            </li>
+        </ul>
+    </div>
+
+    <div class="blue_container">
+        <h2 class="offer_title">Showing<br> our offers from</h2>
+        <div class="offer_container">
+            <ul class="offer_list">
+                <li class="offer" onmouseover="offer_highlight(this)" onmouseout="offer_reset(this)">
+                        <div class="ribbon">
+                            <span>3h left at this rate</span>
+                        </div>
+                        <figure>
+                            <img src="images/london.jpg" alt="Best deal">
+                            <figcaption>
+                                London<br><span>from £59</span>
+                            </figcaption>
+                            <a class="arrow_link">Book now<i class="arrow"></i></a>
+                        </figure>
+                </li>
+                <li class="offer" onmouseover="offer_highlight(this)" onmouseout="offer_reset(this)">
+                    <figure> 
+                        <img src="images/hamburg.jpg" alt="Deal number 2">
+                        <figcaption>
+                            Hamburg<br><span>from £79</span>
+                        </figcaption>
+                        <a class="arrow_link">Book now<i class="arrow"></i></a>
+                    </figure>
+                </li>
+                <li class="offer" onmouseover="offer_highlight(this)" onmouseout="offer_reset(this)">
+                    <figure>
+                        <img src="images/alicante.jpg" alt="Deal number 3">
+                        <figcaption>
+                            Alicante<br><span>from £89</span>
+                        </figcaption>
+                        <a class="arrow_link">Book now<i class="arrow"></i></a>
+                    </figure>
+                </li>
+                <li class="offer" onmouseover="offer_highlight(this)" onmouseout="offer_reset(this)" >
+                    <figure>
+                        <img src="images/milano.jpg" alt="Deal number 4">
+                        <figcaption>
+                            Milano<br><span>from £119</span>
+                        </figcaption>
+                        <a class="arrow_link">Book now<i class="arrow"></i></a>
+                    </figure>
+                </li>
+            </ul>
+        </div>            
+    </div>
+
+    <div class="inspiration_container">
+        <h2>Don't know where to go?</h2>
+        <a href="#">Let us inspire you</a>
+    </div>
+
+    <div class="packages_container">
+        <h2>Quality from the inside</h2>
+        <h1>Travel the way you want</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt<span class="hide_mobile">ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<br> nostrud exercitation ulnisi ut</span><span class="hide_desktop"> aliquip ex ea commodo. consequat.</span>
+        </p>
+        <div class="services_upgrades">
+            <a href="#">View all services & upgrades</a>
+        </div>
+        <ul class="service_list">
+
+            <div class="package_buttons">
+                <button id="package_button_1" class="package_button button_active">Regular</button>
+                <button id="package_button_2" class="package_button">Plus</button>
+                <button id="package_button_3" class="package_button">Premium</button>
+            </div>       
+
+            <li class="service_package active" id="service_package_1">
+              <section>
+                <img src="images/service.jpg" alt="Service photo" class="avatar">
+                <h3>Regular</h3>
+                <ul>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Reclinable seats</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>1 Hand luggage</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Extra leg room</h4>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra cabin luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra hold luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Lounge access</h4>
+                    </li>
+                </ul>
+              </section>
+            </li>
+            <li class="service_package" id="service_package_2">
+                <section>
+                  <img src="images/service.jpg" alt="Service photo" class="avatar">
+                  <h3>Plus</h3>
+                  <ul>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Reclinable seats</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>1 Hand luggage</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Extra leg room</h4>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra cabin luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra hold luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Lounge access</h4>
+                    </li>
+                </ul>
+              </section>
+              </li>
+              <li class="service_package" id="service_package_3">
+                <section>
+                  <img src="images/service.jpg" alt="Service photo" class="avatar">
+                  <h3>Premium</h3>
+                  <ul>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Reclinable seats</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>1 Hand luggage</h4>
+                    </li>
+                    <li class="included">
+                        <img src="images/icons/icocheck.png" alt="Included">
+                        <h4>Extra leg room</h4>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra cabin luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Extra hold luggage</h4>
+                    </li>
+                    <li class="excluded">
+                        <img class="pay_extra_ico" alt="Pay Extra">
+                        <h4>Lounge access</h4>
+                    </li>
+                </ul>
+              </section>
+              </li>
+       </ul>
+    </div>
+
+    <div class="form_newsletter">
+        <form action="">
+        
+            <label for="newsletter">Subscribe to our<span> newsletter</span></label>
+            <input type="email" placeholder="Enter your email address" name="email" id="email">
+        
+            <input type="button" value="Send" id="news-btn" onmouseover="movearrow()" onmouseout="resetarrow()">
+            <div class="arrow_container">
+                <i class="desktop_arrow" id="arrow-btn"></i>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+                <div class="moveon_desktop">
+                <h4>Follow us</h4>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/" class="fa"><img class="faIco" src="images/icons/facebook.png" alt="Facebook icon"></a></li>
+                    <li><a href="https://twitter.com/" class="tw"><img class="twIco" src="images/icons/twitter.png" alt="Twitter icon"></a></li>
+                    <li><a href="https://www.instagram.com/" class="in"><img class="inIco" src="images/icons/instagram.png" alt="Instagram icon"></a></li>
+                </ul>
+                </div>
+                <div class="footer_desktop">
+                <ul class="payments">
+                    <li><img class="mc" src="images/icons/mc.svg" alt="Master Card"></li>
+                    <li><img class="visa" src="images/icons/visa.svg" alt="Visa"></li>
+                    <li><img class="amex" src="images/icons/amex.svg" alt="Amex"></li>
+                    <li><img class="paypal" src="images/icons/paypal.svg" alt="Paypal"></li>
+                </ul>
+                <ul class="links">
+                    <li><a href="#">Terms & Privacy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="dist/all.js?cb=1603035995011"></script>
+
+</body>
+</html>

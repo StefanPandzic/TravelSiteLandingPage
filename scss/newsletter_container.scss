@@ -1,0 +1,226 @@
+.form_newsletter{
+    background: color(primary);
+    color: color(secondary);
+    text-align: center;
+    padding: 4em 2em;
+   form{
+
+       display:block;
+
+       label {
+        
+            font-weight: bold;
+          
+            margin-bottom: 1em;
+            font-size: 30px;
+        }
+
+        input[type=email] {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid color(secondary);
+            width: 100%;
+            padding: 1em;
+            box-sizing: border-box;
+            margin-top: 1.2em;
+            font-size: 20px;
+            color: color(secondary);
+        }
+
+        input[type=email]:focus {
+
+            outline: none;
+            box-shadow: none;
+
+
+        }
+
+        input[type=email]:active {
+            background: color(primary-darker);
+            outline: none;
+            box-shadow: none;
+
+        }
+
+        input[type=email]::placeholder {
+
+            opacity: 0.8;
+            font-size: 20px;
+        }
+
+        input[type=button] {
+            margin-top:2em;
+            background-color: color(secondary);
+            color: color(primary);
+            border: none;
+            width: 100%;
+            font-weight: bold;
+            padding: 0.8em 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        input[type=button]:hover {
+            color: color(primary-light);
+      
+        }
+        
+        input[type=button]:focus {
+            outline:none;
+      
+        }
+
+        input[type=button]:active {
+            outline: none;
+            border: none;
+            color: color(secondary);
+            background: color(primary-darker);
+        }
+
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .form_newsletter{
+
+        padding: 2em 8em;
+
+        form{
+
+            label {
+                
+                font-weight: normal;
+
+            }
+
+            input[type=email] {
+            
+                padding: 0.2em 0.5em;
+            
+                font-size: 25px;
+            
+            }
+
+            input[type=email]::placeholder {
+
+                font-size: 25px;
+            }
+
+            input[type=button] {
+
+                margin-top:1.5em; 
+                width: 60%;
+                padding: 0.5em 0;
+                font-size: 30px;
+
+            }
+         }
+    }
+}
+
+@media (min-width: 1500px) {
+.form_newsletter{
+
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 1em 12em 1em 4em;
+
+
+   form{
+
+    display: flex;
+
+
+    width: 60%;
+
+
+       label {
+ 
+            width:500px;
+            margin: auto 0 auto 1em;
+            font-size: 25px;
+               
+            span{
+                display:none;    
+            }
+         
+        }
+
+        input[type=email] {
+           
+            margin:1.2em 0 1.2em 2em;
+            padding: 0.2em 0 0.2em 0.2em;
+          
+            font-size: 23px;
+         
+        }
+
+        input[type=email]::placeholder {
+
+            font-size: 20px;
+        }
+
+        input[type=button] {
+
+
+
+
+            margin:1.2em 0;
+            padding:0.1em 0;
+            background: transparent;
+            color: color(secondary);
+            border-bottom:2px solid color(secondary);
+            width:200px;
+            font-weight: normal;
+           
+            font-size: 23px;
+            cursor: pointer;
+
+        }
+
+        input[type=button]:hover {
+            color: color(secondary);
+      
+        }
+        
+        input[type=button]:focus {
+            outline:none;
+      
+        }
+
+        input[type=button]:active {
+            outline: none;
+
+            background-color: transparent;
+            border-bottom:2px solid color(secondary);
+        }
+
+        .arrow_container{
+
+            position: relative;
+
+            .desktop_arrow{
+
+                position: absolute;
+                padding:1px;
+                width: 8px;
+                height: 8px;
+                left: -18px;
+                border: solid color(secondary);
+                border-width: 0 2px 2px 0;
+                transform: translateY(40px) rotate(-45deg);
+                
+            }
+    }
+
+    }
+}
+
+}
